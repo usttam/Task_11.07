@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {  
+  font-size: 17px;
+  font-family: math;
+  background-color: bisque;
+}
+main {
+  margin: 1%;  
+}
+
+h1{
+  margin: 1%;
+  text-align: center;
+}
+h2{
+  margin: 1.5%;
+}
+
+.table-container1,.table-container2,.table-container3{
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+  padding: 2px;  
+}
+
+table,th,td{
+  border: 1px solid;  
+  text-align: center;
+  border-collapse: collapse;
+  width: 907px;
+ 
+}
+th{
+  background-color: aliceblue;
+  padding: 1px;
+  height: 30px;  
+}
+td{
+  background-color: aquamarine;  
+}
+.table-container3 td:first-child{
+  background-color: azure;
+  font-weight: bold;  
+}
+.table-container2 td:first-child{
+  background-color: azure;
+  font-weight: bold; 
+}
